@@ -9,3 +9,6 @@
 * [mysql与mongo数据库---sql与nosql区别](http://blog.csdn.net/sanyanpi_hz/article/details/72824269)
 
 此项目选用Mysql数据库
+#### 3.算法
+#####  第一阶段
+User CF&Item CF初步探究，使用python2运行
