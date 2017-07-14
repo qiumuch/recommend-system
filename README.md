@@ -11,4 +11,6 @@
 此项目选用Mysql数据库
 #### 3.算法
 #####  第一阶段
+协同过滤算法
 User CF&Item CF初步探究，使用python2运行
+得到recall,precision,pupularity,coverage
