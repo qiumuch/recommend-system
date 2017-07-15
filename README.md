@@ -18,3 +18,6 @@ User CF&Item CF初步探究，使用python2运行
 #### 参考自资料
 《推荐系统实践》
 《集体编程智慧》
+
+#### 数据来源
+[grouplens](https://grouplens.org/datasets/movielens/)
