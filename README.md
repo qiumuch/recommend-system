@@ -14,3 +14,7 @@
 协同过滤算法
 User CF&Item CF初步探究，使用python2运行
 得到recall,precision,pupularity,coverage
+
+#### 参考自资料
+《推荐系统实践》
+《集体编程智慧》
