@@ -55,8 +55,15 @@ barh(bottom,width,height,color)
 #height y轴的数值序列
 #width 柱形图的宽度
 #color 柱形图填充颜色
+#bottom 离x轴的高度
 ```
+```python
+plt.xticks(index, result.index) #x轴标签设置
+plt.legend(['神州行', '动感地带', '全球通']) #设置导读表
 
+#解决负号是一个矩形的问题
+matplotlib.rcParams['axes.unicode_minus']=False  
+```
 
 ### 直方图
 ```python
@@ -74,3 +81,9 @@ hist(x,color,bins,cumulative=False)
 3. 根据数据大小设置区域颜色（标准化处理，使用[0,1]的值，代表颜色透明度）
 4. 填色
 5. 根据经纬度标注地图的名字
+
+### 其它
+```python
+as_index = False #是“SQL风格”分组输出
+matplotlib.rc #配置
+```
