@@ -1,4 +1,4 @@
-### matplotlib API入门
+### matplotlib
 使用matplotlib最常用的方式是Pylab模式的IPython(%pylab inline)。这样会将IPython配置为使用你所指定的matplotlib GUI后端，Pylab模式还会向IPython引入一大堆模块和函数以提供一种接近于MATLAB的界面。
 
 matplotlib API函数都位于matplotlib.pyplot模块中，其通常的引入约定是：
