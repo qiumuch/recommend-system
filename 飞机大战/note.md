@@ -15,4 +15,28 @@ sudo apt-get install python-pygame
 在游戏《外星人入侵》中，玩家控制着一艘最初出现在屏幕底部中央的飞船。玩家可以使用箭头键左右移动飞船，还可使用空格键进行射击。游戏开始时，一群外星人出现在天空中，他们在屏幕中向下移动。玩家的任务是射杀这些外星人。玩家将所有外星人都消灭干净后，将出现一群新的外星人，他们移动的速度更快。只要有外星人撞到了玩家的飞船或到达了屏幕底部，玩家就损失一艘飞船。玩家损失三艘飞船后，游戏结束。
 
 ### 开始游戏
-1. 创建Pygame窗口以及响应用户输入
+1. 创建Pygame窗口：
+screen=pygame.display.set_mode((x,y),0,32)
+2. 创建一个和窗口大小的图片，用来充当背景
+background=pygame.image.load(imgpath).convert()
+3. 把图片放到窗口中显示
+
+4. 创建一个飞机图片
+```python
+import time
+
+while True:
+    #设定需要显示的背景图
+    screen.blit(gackground,(x,y))
+    #
+    pygame.display.update()
+    #降低cpu使用率
+    time.sleep(0.01)
+
+if __name__=="__main__":
+    main()
+```
+
+
+
+
